@@ -1,0 +1,74 @@
+<
+<header>
+    <nav>
+        <div class="logo">💄 Beauty Store</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="makeup.html">Makeup</a></li>
+            <li><a href="skincare.html">Skincare</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+              <li><a href="admin.html">dashboard</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skincare Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">🧴 Skincare Store</div>
+    </nav>
+</header>
+
+<section class="products">
+    <h2>💖 Skincare Collection</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="facewash.jpg">
+            <h3>Face Wash</h3>
+            <p>$10</p>
+            <button onclick="addToCart('Face Wash', '$10', 'facewash.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="moisturizer.jpg">
+            <h3>Moisturizer</h3>
+            <p>$12</p>
+            <button onclick="addToCart('Moisturizer', '$12', 'moisturizer.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="serum.jpg">
+            <h3>Face Serum</h3>
+            <p>$18</p>
+            <button onclick="addToCart('Face Serum', '$18', 'serum.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="sunscreen.jpg">
+            <h3>Sunscreen</h3>
+            <p>$14</p>
+            <button onclick="addToCart('Sunscreen', '$14', 'sunscreen.jpg')">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+
+<header>
+    <nav>
+        <div class="logo">💄 Beauty Store</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="makeup.html">Makeup</a></li>
+            <li><a href="skincare.html">Skincare</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="admin.html">dashboard</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfume Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">🌸 Perfume Store</div>
+    </nav>
+</header>
+
+<section class="products">
+    <h2>✨ Luxury Perfume Collection</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="chanel.jpg">
+            <h3>Chanel Perfume</h3>
+            <p>$50</p>
+            <button onclick="addToCart('Chanel Perfume', '$50', 'chanel.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="dior.jpg">
+            <h3>Dior Sauvage</h3>
+            <p>$55</p>
+            <button onclick="addToCart('Dior Sauvage', '$55', 'dior.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="gucci.jpg">
+            <h3>Gucci Bloom</h3>
+            <p>$48</p>
+            <button onclick="addToCart('Gucci Bloom', '$48', 'gucci.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="versace.jpg">
+            <h3>Versace Eros</h3>
+            <p>$45</p>
+            <button onclick="addToCart('Versace Eros', '$45', 'versace.jpg')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="bliss.jpg">
+            <h3>Bliss</h3>
+            <p>$20</p>
+            <button onclick="addToCart('Body Mist', '$20', 'bodymist.jpg')">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
